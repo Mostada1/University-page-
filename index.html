@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            text-align: center;
+            margin-top: 100px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f4f4f4;
+            animation: fadeInBody 2s ease-in;
+        }
+
+        h1 {
+            color: #ffe600;
+            font-size: 40px;
+            margin-bottom: 30px;
+            animation: fadeInText 2s ease-in-out;
+        }
+
+        p {
+            font-size: 22px;
+            margin: 10px 0;
+            color: #ffffff;
+            animation: fadeInText 3s ease-in-out;
+        }
+
+        @keyframes fadeInBody {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInText {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my first web page</h1>
+    <p>الاسم: مصطفى احمد سيد</p>
+    <p>الكود: 20231328</p>
+    <p>الجروب: ب</p>
+</body>
+</html>
